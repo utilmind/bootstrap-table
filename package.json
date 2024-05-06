@@ -1,7 +1,7 @@
 {
   "name": "bootstrap-table",
   "description": "An extended table to integration with some of the most widely used CSS frameworks. (Supports Bootstrap, Semantic UI, Bulma, Material Design, Foundation)",
-  "version": "1.22.4",
+  "version": "1.22.5",
   "type": "module",
   "style": "dist/bootstrap-table.min.css",
   "sass": "src/bootstrap-table.scss",
@@ -44,7 +44,7 @@
   "scripts": {
     "lint:js": "eslint src",
     "lint:css": "stylelint src/**/*.scss",
-    "lint:spell": "cspell lint --no-progress 'src/**/*.{js,json,vue,scss}' '**/*.md'",
+    "lint:spell": "cspell lint --no-progress 'src/**/*.{js,json,vue,scss}' 'site/**/*.md' '*.md'",
     "lint:editor": "editorconfig-checker -exclude dist",
     "lint": "run-s lint:*",
     "test": "cypress run --headless",
