@@ -361,9 +361,9 @@ const EN = {
   },
   formatShowingRows (pageFrom, pageTo, totalRows, totalNotFiltered) {
     return `Showing ${pageFrom} to ${pageTo} of ${totalRows} rows`
-                + (totalNotFiltered && totalRows < totalNotFiltered)
+                + (totalNotFiltered && totalRows < totalNotFiltered
                         ? ` (filtered from ${totalNotFiltered} total rows)`
-                        : ''
+                        : '')
   },
   formatSRPaginationPreText () {
     return 'previous page'
